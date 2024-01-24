@@ -1,0 +1,42 @@
+﻿<Window x:Class="Se130WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Se130WPF"
+        mc:Ignorable="d"
+        Title="TestWindow" Height="350" Width="800"
+        >
+    <StackPanel>
+        <Label FontWeight="Bold">Who do you vote for</Label>
+        <RadioButton GroupName="Languages" VerticalContentAlignment="Center">
+            <WrapPanel>
+                <Image Height="30" Source="https://static-00.iconduck.com/assets.00/c-sharp-c-icon-1822x2048-wuf3ijab.png"></Image>
+                <Label>Csharp</Label>
+            </WrapPanel>
+        </RadioButton>
+        <RadioButton x:Name="java" MouseEnter="java_MouseEnter" MouseLeave="java_MouseLeave" Checked="java_Checked" Unchecked="java_Unchecked" GroupName="Languages" VerticalContentAlignment="Center">
+            <WrapPanel>
+                <Image Height="30" Source="https://cdn-icons-png.freepik.com/512/5968/5968282.png"></Image>
+                <Label Name="myLabel">Java</Label>
+            </WrapPanel>
+        </RadioButton>
+        <RadioButton GroupName="Languages" VerticalContentAlignment="Center">
+            <WrapPanel>
+                <Image Height="30" Source="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png"></Image>
+                <Label>Python</Label>
+            </WrapPanel>
+        </RadioButton>
+        <RadioButton GroupName="Languages" VerticalContentAlignment="Center">
+            <WrapPanel>
+                <Image Height="30" Source="https://cdn-icons-png.flaticon.com/512/1118/1118470.png"></Image>
+                <Label>Java</Label>
+            </WrapPanel>
+        </RadioButton>
+
+        <Label FontWeight="Bold">How you feel about it</Label>
+        <RadioButton GroupName="Feelings">Good</RadioButton>
+        <RadioButton GroupName="Feelings">Ok</RadioButton>
+        <RadioButton GroupName="Feelings">Not so much</RadioButton>
+    </StackPanel>
+</Window>

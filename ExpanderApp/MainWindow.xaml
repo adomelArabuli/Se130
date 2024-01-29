@@ -1,0 +1,27 @@
+﻿<Window x:Class="ExpanderApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExpanderApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Expander Expanded="Expander_Expanded">
+            <Expander.Header>
+                <StackPanel>
+                    <Image Width="30" Source="Images/serilog.JPG"/>
+                    <TextBlock>Some text</TextBlock>
+                </StackPanel>
+            </Expander.Header>
+            <StackPanel>
+                <Button>Click here</Button>
+                <DatePicker></DatePicker>
+                <TextBlock TextWrapping="Wrap" FontSize="20">
+                    
+Birds are a diverse group of warm-blooded vertebrates constituting the class Aves. They are characterized by feathers, beaks, and a high metabolic rate, as well as laying eggs. Birds are found worldwide and range in size from the tiny hummingbird to the ostrich, which is the largest living bird. They inhabit a variety of ecosystems, from forests and deserts to urban areas.
+                </TextBlock>
+            </StackPanel>
+        </Expander>
+    </StackPanel>
+</Window>

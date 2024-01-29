@@ -13,6 +13,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageControl", "ImageContro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slider", "Slider\Slider.csproj", "{150A39A0-104D-4B1F-9052-9328676375BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar", "Calendar\Calendar.csproj", "{FAB4651B-8027-4B3E-80C0-AB7DF0625AC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatePickerApp", "DatePicker\DatePickerApp.csproj", "{F13609AF-551C-4DF8-A808-EB6BFCD46B36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpanderApp", "ExpanderApp\ExpanderApp.csproj", "{88926528-5E72-4275-AA78-8BC951EF563F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +45,18 @@ Global
 		{150A39A0-104D-4B1F-9052-9328676375BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{150A39A0-104D-4B1F-9052-9328676375BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{150A39A0-104D-4B1F-9052-9328676375BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAB4651B-8027-4B3E-80C0-AB7DF0625AC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB4651B-8027-4B3E-80C0-AB7DF0625AC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB4651B-8027-4B3E-80C0-AB7DF0625AC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB4651B-8027-4B3E-80C0-AB7DF0625AC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F13609AF-551C-4DF8-A808-EB6BFCD46B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13609AF-551C-4DF8-A808-EB6BFCD46B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13609AF-551C-4DF8-A808-EB6BFCD46B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13609AF-551C-4DF8-A808-EB6BFCD46B36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88926528-5E72-4275-AA78-8BC951EF563F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88926528-5E72-4275-AA78-8BC951EF563F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88926528-5E72-4275-AA78-8BC951EF563F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88926528-5E72-4275-AA78-8BC951EF563F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatePickerApp", "DatePicker
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpanderApp", "ExpanderApp\ExpanderApp.csproj", "{88926528-5E72-4275-AA78-8BC951EF563F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridWPF", "GridWPF\GridWPF.csproj", "{24B737C5-0D9B-4BB4-88B8-A8EF60D3196B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{88926528-5E72-4275-AA78-8BC951EF563F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88926528-5E72-4275-AA78-8BC951EF563F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88926528-5E72-4275-AA78-8BC951EF563F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24B737C5-0D9B-4BB4-88B8-A8EF60D3196B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B737C5-0D9B-4BB4-88B8-A8EF60D3196B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B737C5-0D9B-4BB4-88B8-A8EF60D3196B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B737C5-0D9B-4BB4-88B8-A8EF60D3196B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

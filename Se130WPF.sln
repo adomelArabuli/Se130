@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridWPF", "GridWPF\GridWPF.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackPanel", "StackPanel\StackPanel.csproj", "{1BF36D42-11B8-436A-88B7-87FB60BB67DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WrapPanel", "WrapPanel\WrapPanel.csproj", "{E3AA932D-2E10-486B-AB89-B1D50C0E664D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{1BF36D42-11B8-436A-88B7-87FB60BB67DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BF36D42-11B8-436A-88B7-87FB60BB67DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BF36D42-11B8-436A-88B7-87FB60BB67DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3AA932D-2E10-486B-AB89-B1D50C0E664D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3AA932D-2E10-486B-AB89-B1D50C0E664D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3AA932D-2E10-486B-AB89-B1D50C0E664D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3AA932D-2E10-486B-AB89-B1D50C0E664D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

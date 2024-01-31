@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E3AA932D-2E10-486B-AB89-B1D50C0E664D}</ProjectGuid>
+    <ProjectGuid>{4480B034-F833-4400-B026-0D39FB41D4DA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WrapPanel</RootNamespace>
-    <AssemblyName>WrapPanel</AssemblyName>
+    <RootNamespace>DockPanelApp</RootNamespace>
+    <AssemblyName>DockPanelApp</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -93,6 +93,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\amazing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\images.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

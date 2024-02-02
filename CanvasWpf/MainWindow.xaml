@@ -6,7 +6,10 @@
         xmlns:local="clr-namespace:CanvasWpf"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <Canvas Opacity="0.4">
+        <Button Canvas.Left="100">btn1</Button>
+        <Button Canvas.Right="100">btn2</Button>
+        <Rectangle Panel.ZIndex="1" Width="100" Height="100" Fill="Aqua" Canvas.Bottom="0" Canvas.Right="0"></Rectangle>
+        <Rectangle Panel.ZIndex="0" Width="100" Height="100" Fill="Blue" Canvas.Bottom="50" Canvas.Right="50"></Rectangle>
+    </Canvas>
 </Window>

@@ -43,7 +43,7 @@
             {
                 using(StreamWriter sw = new StreamWriter(fs))
                 {
-                    sw.WriteLine($"I want to log the url of the new video {path}");
+                    sw.WriteLine($"I want to log the url of the new video {path} test");
                 }
             }
         }
